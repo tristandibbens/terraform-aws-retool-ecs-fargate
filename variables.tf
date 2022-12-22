@@ -29,7 +29,7 @@ locals {
 variable "aws_region" {
   description = "AWS Region to deploy resources"
   type        = string
-  default     = "us-east-1"
+  default     = "eu-west-2"
 }
 
 variable "stack_name" {
@@ -59,7 +59,7 @@ variable "postgresql_db_port" {
 variable "retool_release_version" {
   description = "Official Retool release version found: https://github.com/tryretool/retool-onpremise#select-a-retool-version-number"
   type        = string
-  default     = "2.93.9"
+  default     = "2.105.1"
 }
 
 variable "retool_alb_sg_ingress_cidr_blocks" {
